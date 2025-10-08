@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juvencio Castro Juarez - Hobbies</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juvencio Castro Juarez - Hobbies</title>
+
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="styles/main.css">
 </head>
-<body>
-    <header>
-        <h1>Juvencio Castro's Portfolio</h1>
-        <nav>
-            <a href="index.html">About me</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
-    
 
-    <main>
-        <h2>Concerts & Live Music</h2>
-        <p>I <strong>love</strong> going to concerts, the energy of a live crowd is unbeatable.</p>
-        <p>one of my selfies will go here at some point</p>
-        <ul>
-            <li>My big 3: <em>Juice Wrld, Los Tigres del Norte, Kid Cudi</em></li>
-            <li>Best concert I’ve been to: Juice Wrld at Summer Smash in 2019, RIP</li>
-            <li>Dream show: I wish I got to see Ozzy Osbourne before his passing, RIP. Otherwise I have seen almost every artist ive ever loved!</li>
-        </ul>
+<body class="d-flex flex-column min-vh-100 bg-light">
+  <!-- HEADER -->
+  <header class="text-center p-3 bg-dark text-white mb-4">
+    <h1>Juvencio Castro's Portfolio</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
 
-        <h2>Comics & Anime</h2>
-        <p>Im a huge fan of marvel comics and have been getting into DC more recently. <br>What really gets me talking though is anime, here are my big 3: </p>
-        <ol>
-            <li><b>One Piece</b> - Caught up on all 1141 episodes, its not long enough! I'm stuck making theories of my own.</li>
-            <li><b>Hunter X Hunter</b> = This show really changed my outlook on anime and impacted me in a big way when I was younger.</li>
-            <li><b>Attack on Titan</b> - All I can say is <b>Global Impact Award</b>, are you kidding me? 10/10</li>
-        </ol>
-        <p>And an honorable mention to Solo leveling, it's just peak animation.</p>
+  <!-- MAIN CONTENT -->
+  <main class="container my-5 mb-5">
+    <h2>🎵 Concerts & Live Music</h2>
+    <p>I <strong>love</strong> going to concerts — the energy of a live crowd is unbeatable.</p>
+    <p>(One of my selfies will go here at some point!)</p>
+    <ul>
+      <li>My big 3: <em>Juice Wrld, Los Tigres del Norte, Kid Cudi</em></li>
+      <li>Best concert I’ve been to: Juice Wrld at Summer Smash in 2019 (RIP)</li>
+      <li>Dream show: Ozzy Osbourne — wish I could’ve seen him before his passing. Otherwise, I’ve seen almost every artist I love!</li>
+    </ul>
 
-        <h2>Video Games</h2>
-        <p>Gaming is one of my favorite ways to relax and connect with friends. Here are a few I love:</p>
-        <ul>
-            <li><strong>Pokémon Unite</strong> - my main is Zacian, but he gets fried if I don’t play smart.</li>
-            <li><strong>Warthunder</strong> - nothing like a good tank battle or a dogfight.</li>
-            <li><strong>Ghosts of Tabor VR</strong> - super intense and immersive raid extraction game that never gets old.</li>
-        </ul>
+    <h2>📚 Comics & Anime</h2>
+    <p>I'm a huge fan of Marvel comics and have been diving into DC more recently.  
+      But anime? That’s where I go full nerd. My big 3:</p>
+    <ol>
+      <li><strong>One Piece</strong> — caught up on all 1141 episodes; still not enough!</li>
+      <li><strong>Hunter X Hunter</strong> — changed my outlook on anime and storytelling forever.</li>
+      <li><strong>Attack on Titan</strong> — Global Impact Award? Deserved. Absolute 10/10.</li>
+    </ol>
+    <p>And an honorable mention: <strong>Solo Leveling</strong> — pure animation perfection.</p>
 
-    </main>
+    <h2>🎮 Video Games</h2>
+    <p>Gaming is one of my favorite ways to relax and connect with friends. My current rotation:</p>
+    <ul>
+      <li><strong>Pokémon Unite</strong> — my main is Zacian, but I have to play smart or get fried.</li>
+      <li><strong>War Thunder</strong> — nothing like a good tank battle or dogfight.</li>
+      <li><strong>Ghosts of Tabor VR</strong> — super intense and immersive; never gets old.</li>
+    </ul>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center p-3 bg-dark text-white mt-auto">
+    &copy; 2025 Juvencio Castro
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
